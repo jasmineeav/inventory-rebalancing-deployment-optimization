@@ -41,7 +41,13 @@ Power BI Dashboard (Visualization Layer)
 ```
 
 ---
+## 📁 Repository Structure
 
+- `/data/raw` → source datasets used for simulation  
+- `/outputs` → final model outputs (Power BI ready)  
+- `/notebooks` → end-to-end analysis notebook
+
+---
 ## 💼 Business Problem
 
 In a multi-node supply chain, inventory shortages are not always caused by total supply constraints.
