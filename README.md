@@ -2,7 +2,7 @@
 
 This project simulates inventory deployment planning in a 6-DC, 3-plant food supply network, using Walmart 10oz products as a customer-specific planning scope.
 
-The analysis combines weekly forecast, inventory snapshots, frozen production plans, and in-transit STO shipments to answer four core business questions:
+The analysis combines weekly forecast, inventory snapshots, 4-week production plans, and in-transit STO shipments to answer four core business questions:
 
 1. Which SKU-DC combinations are at risk of shortage?
 2. In which week does the shortage first appear?
@@ -22,7 +22,7 @@ This project models a realistic deployment planning scenario for a food supply n
 - 6 distribution centers: PA, TX, FL, NV, WI, WA
 - 3 manufacturing plants: LHV (PA), Henderson (NV), Sulphur (TX)
 - weekly customer forecast as the demand signal
-- a 4-week frozen production horizon
+- a 4-week production horizon
 - in-transit STO shipments as inbound support
 
 The goal is to classify shortage cases into:
@@ -124,6 +124,6 @@ The project generates the following planning outputs:
 ## Future Improvements
 
 - Add transport lane timing and transfer arrival logic directly into the recommendation engine
-- Expand from 4-week frozen horizon to 8–12 week scenario planning
+- Expand from 4-week horizon to 8–12 week scenario planning
 - Add cost-based optimization for donor selection
 - Build a Power BI dashboard for executive risk overview and rebalancing recommendations
