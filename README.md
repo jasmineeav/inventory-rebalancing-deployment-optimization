@@ -1,129 +1,231 @@
-# Inventory Rebalancing & Deployment Optimization for a Multi-DC Food Supply Network
+# 🚀 Inventory Rebalancing & Deployment Optimization for a Multi-DC Food Supply Network
 
-This project simulates inventory deployment planning in a 6-DC, 3-plant food supply network, using Walmart 10oz products as a customer-specific planning scope.
+---
 
-The analysis combines weekly forecast, inventory snapshots, 4-week production plans, and in-transit STO shipments to answer four core business questions:
+## 🧠 Project Overview
 
-1. Which SKU-DC combinations are at risk of shortage?
-2. In which week does the shortage first appear?
-3. Can the shortage be covered by inbound STO or local plant production?
-4. If not, can inventory be rebalanced from another DC, or is the case truly supply constrained?
+This project builds a **multi-DC inventory risk detection and deployment recommendation engine** for a food supply chain network.
 
-The project was built using **Python, DuckDB SQL, and Power BI-ready output tables**.
+It answers a critical business question:
 
+👉 When inventory shortages occur,
+**should we rely on production, inbound supply, or rebalance across distribution centers?**
 
-## Business Problem
+Using a combination of **DuckDB SQL and Python-based rolling projections**, the model simulates:
 
-In a multi-node supply chain, inventory shortages are not always caused by total supply constraints.  
-They may result from uneven inventory distribution, weak local production support, or delayed inbound shipments.
+* Shortage timing (when gaps occur)
+* Gap severity and duration
+* Feasible replenishment sources
+* Final deployment recommendations
 
-This project models a realistic deployment planning scenario for a food supply network with:
+The output is a set of **Power BI-ready tables** that support operational decision-making.
 
-- 6 distribution centers: PA, TX, FL, NV, WI, WA
-- 3 manufacturing plants: LHV (PA), Henderson (NV), Sulphur (TX)
-- weekly customer forecast as the demand signal
-- a 4-week production horizon
-- in-transit STO shipments as inbound support
+---
 
-The goal is to classify shortage cases into:
-- Covered by STO
-- Covered by Production
-- Transfer Required
-- No Feasible Source
+## 🧩 Project Architecture
 
-## Scope
+```
+Raw Data (CSV)
+   ↓
+DuckDB SQL (Risk Screening & WOS Calculation)
+   ↓
+Python Rolling Projection (4-week simulation)
+   ↓
+Gap Detection
+   ↓
+Replenishment Feasibility Engine
+   ↓
+Final Recommendation Engine
+   ↓
+Power BI Dashboard (Visualization Layer)
+```
 
-The analysis focuses on **Walmart 10oz products** to simulate customer-specific deployment logic.
+---
 
-Key assumptions:
-- Weekly forecast is used as a proxy for demand.
-- The next 4 weeks of production plan are treated as frozen and reliable.
-- Same-state plant-to-DC replenishment is treated as fast local support.
-- Cross-region support may require network rebalancing from surplus DCs.
+## 💼 Business Problem
 
-## Data Model
+In a multi-node supply chain, inventory shortages are not always caused by total supply constraints.
+
+They may result from:
+
+* uneven inventory distribution across DCs
+* weak local production support
+* delayed inbound shipments
+
+This project models a realistic deployment planning scenario to determine:
+
+1. Which SKU–DC combinations are at risk of shortage
+2. When the shortage will occur
+3. Whether it can be resolved by production or inbound supply
+4. Whether inventory needs to be rebalanced across DCs
+5. Whether the shortage is fundamentally unsolvable
+
+---
+
+## 📦 Network Scope
+
+* **6 Distribution Centers:** PA, TX, FL, NV, WI, WA
+
+* **3 Manufacturing Plants:**
+
+  * Lehigh Valley (PA)
+  * Henderson (NV)
+  * Sulphur (TX)
+
+* Weekly customer demand as forecast
+
+* 4-week rolling planning horizon
+
+* STO (Stock Transfer Orders) as inbound support
+
+---
+
+## 🧾 Data Model
 
 The project uses the following datasets:
 
-- `product_master.csv` – SKU master data
-- `weekly_forecast.csv` – weekly customer demand by SKU and DC
-- `inventory_snapshot.csv` – on-hand unrestricted, blocked, and quality inventory
-- `production_plan.csv` – 12-week plant production schedule with cadence logic
-- `sto_shipment_tracking.csv` – in-transit stock transfer orders
-- `sku_plant_mapping.csv` – primary plant assignment by SKU
+* `product_master.csv` → SKU master data
+* `weekly_forecast.csv` → demand by SKU and DC
+* `inventory_snapshot.csv` → on-hand inventory
+* `production_plan.csv` → plant production schedule
+* `sto_shipment_tracking.csv` → in-transit inventory
+* `sku_plant_mapping.csv` → SKU to plant assignment
 
-## Methodology
+---
 
-### Phase 1 – Data Generation
-A simulated dataset was generated to reflect a realistic multi-DC food network.  
-Walmart 10oz SKUs were intentionally grouped into:
+## ⚙️ Methodology
 
-- healthy
-- incoming supply cover
-- rebalancing needed
-- true supply risk
+### Phase 1 — Data Generation
 
-This ensured the final model produced realistic shortage, donor, and no-solution cases.
+A simulated dataset was created to reflect realistic supply chain scenarios.
 
-### Phase 2 – Static Risk Screening
+SKUs were intentionally grouped into:
+
+* healthy inventory
+* incoming supply coverage
+* rebalancing-needed cases
+* true supply-risk cases
+
+---
+
+### Phase 2 — Static Risk Screening (DuckDB SQL)
+
 DuckDB SQL was used to:
-- define the Walmart 10oz analysis scope
-- calculate 4-week average weekly forecast
-- calculate WOS (weeks of supply)
-- identify low-WOS shortage nodes
-- identify donor DC candidates with surplus inventory
 
-### Phase 3 – Time-Phased Inventory Projection
-A rolling 4-week projection model was built in Python:
+* define analysis scope (Walmart 10oz SKUs)
+* calculate 4-week average demand
+* compute Weeks of Supply (WOS)
+* identify shortage-risk nodes
+* identify surplus donor DCs
 
-Beginning Inventory  
-+ STO arriving this week  
-+ Production support arriving this week  
-- Weekly forecast  
+---
+
+### Phase 3 — Rolling Inventory Projection (Python)
+
+A 4-week rolling projection model was built:
+
+For each SKU–DC:
+
+```
+Beginning Inventory
++ Production arrivals
++ STO arrivals
+- Forecast demand
 = Projected Ending Inventory
+```
 
-This allowed the model to identify:
-- first gap week
-- total gap duration
-- cumulative shortage quantity
+This allowed identification of:
 
-### Phase 4 – Replenishment Feasibility
-For each shortage case, the model evaluated whether the gap could be resolved by:
-- inbound STO
-- local production support
-- inter-DC transfer from a donor location
+* first gap week
+* gap duration
+* cumulative shortage
 
-Each case was then classified into a final action type.
+---
 
+### Phase 4 — Replenishment Feasibility
 
-## Outputs
+For each shortage case, the model evaluates whether the gap can be covered by:
 
-The project generates the following planning outputs:
+* inbound STO
+* local production
+* inter-DC transfer (from surplus locations)
 
-- `weekly_inventory_projection.csv`
-- `gap_summary.csv`
-- `replenishment_feasibility.csv`
-- `final_recommendation.csv`
-- `powerbi_master_table.csv`
+---
 
-## Example Insights
+### Phase 5 — Recommendation Engine
 
-- Some shortage cases were fully covered by in-transit STO and did not require deployment action.
-- Some cases had insufficient local production within the frozen horizon, but could be mitigated through inter-DC transfer from surplus locations such as PA.
-- A subset of cases remained unresolved due to the absence of timely STO, weak production cadence, and no feasible donor inventory.
-- Rolling weekly projection made it possible to identify not just whether a shortage would occur, but exactly when it would begin and how long it would persist.
+Each SKU–DC case is classified into a final action type:
 
-## Tools
+* ✅ Covered by STO
+* ✅ Covered by Production
+* 🔁 Transfer Required
+* ❌ No Feasible Source
 
-- Python
-- Pandas
-- DuckDB SQL
-- Jupyter Notebook
-- Power BI (planned visualization layer)
+---
 
-## Future Improvements
+## 📊 Key Outputs
 
-- Add transport lane timing and transfer arrival logic directly into the recommendation engine
-- Expand from 4-week horizon to 8–12 week scenario planning
-- Add cost-based optimization for donor selection
-- Build a Power BI dashboard for executive risk overview and rebalancing recommendations
+The model generates decision-ready datasets:
+
+### 1. Weekly Inventory Projection
+
+→ SKU-DC level projected inventory over time
+
+### 2. Gap Summary Table
+
+→ First shortage week, duration, severity
+
+### 3. Replenishment Feasibility Table
+
+→ Evaluates available supply sources
+
+### 4. Final Recommendation Table
+
+→ Action classification + recommended approach
+
+### 5. Power BI Master Table
+
+→ Combined dataset for dashboard visualization
+
+---
+
+## 🔍 Example Insights
+
+* Some shortages are fully covered by inbound STO and require no action
+
+* Some cases lack sufficient production support but can be solved via DC rebalancing
+
+* Certain SKUs remain unresolved due to:
+
+  * no inbound supply
+  * weak production cadence
+  * no available donor inventory
+
+* Rolling projections reveal not just *if* a shortage occurs, but *when* and *how long it lasts*
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Python (Pandas, NumPy)
+* DuckDB (SQL-based analytics engine)
+* Jupyter Notebook
+* Power BI (visualization layer)
+
+---
+
+## 🚀 Future Improvements
+
+* Incorporate transport lead time into transfer feasibility
+* Extend planning horizon (4 → 8–12 weeks)
+* Add cost-based optimization for donor selection
+* Build full Power BI dashboard for executive decision-making
+
+---
+
+## 📌 Author
+
+**Jasmine Zhang**
+Supply Chain Analytics | Data Analyst | BI & Optimization
+
+---
