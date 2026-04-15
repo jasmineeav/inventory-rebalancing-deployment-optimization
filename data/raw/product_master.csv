@@ -1,0 +1,221 @@
+sku_id,sku_desc,brand,report_size,uom,product_type,flavor,pack_type,shelf_life_days,is_active
+SKU0001,Cranberry Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry,Bottle,365,Y
+SKU0002,Cranberry Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry,Bottle,300,Y
+SKU0003,Cranberry Grape Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Grape,Bottle,365,Y
+SKU0004,Cranberry Grape Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Grape,Bottle,300,Y
+SKU0005,Cranberry Apple Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Apple,Bottle,365,Y
+SKU0006,Cranberry Apple Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Apple,Bottle,300,Y
+SKU0007,White Cranberry Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,White Cranberry,Bottle,365,Y
+SKU0008,White Cranberry Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,White Cranberry,Bottle,300,Y
+SKU0009,Diet Cranberry Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Diet Cranberry,Bottle,365,Y
+SKU0010,Diet Cranberry Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Diet Cranberry,Bottle,300,Y
+SKU0011,Cranberry Pineapple Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Pineapple,Bottle,365,Y
+SKU0012,Cranberry Pineapple Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Pineapple,Bottle,300,Y
+SKU0013,Cranberry Mango Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Mango,Bottle,365,Y
+SKU0014,Cranberry Mango Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,Y
+SKU0015,Cranberry Raspberry Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Raspberry,Bottle,365,Y
+SKU0016,Cranberry Raspberry Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Raspberry,Bottle,300,Y
+SKU0017,Cranberry Cherry Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Cherry,Bottle,365,Y
+SKU0018,Cranberry Cherry Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Cherry,Bottle,300,Y
+SKU0019,Cranberry Lemonade Juice 10oz Bottle,Ocean Spray,10oz,CASE,Juice,Cranberry Lemonade,Bottle,365,Y
+SKU0020,Cranberry Lemonade Diet Juice 10oz Bottle,Ocean Spray,10oz,CASE,Diet Juice,Cranberry Lemonade,Bottle,300,Y
+SKU0021,Cranberry Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cranberry,Case,365,Y
+SKU0022,Cranberry Apple Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Apple,Case,300,Y
+SKU0023,Cranberry Lemonade Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cranberry Lemonade,PET,365,Y
+SKU0024,White Cranberry Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,White Cranberry,Bottle,365,N
+SKU0025,Cranberry Cherry Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cranberry Cherry,Bottle,365,N
+SKU0026,Cranberry Raspberry Diet Juice 64oz Case,Ocean Spray,64oz,CASE,Diet Juice,Cranberry Raspberry,Case,300,Y
+SKU0027,Cran Tropical Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Tropical,PET,300,Y
+SKU0028,White Cranberry Diet Juice 64oz PET,Ocean Spray,64oz,CASE,Diet Juice,White Cranberry,PET,300,Y
+SKU0029,Cranberry Grape Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Grape,PET,365,Y
+SKU0030,Cran Energy Blend 96oz Bottle,Ocean Spray,96oz,CASE,Blend,Cran Energy,Bottle,270,Y
+SKU0031,Cranberry Peach Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cranberry Peach,PET,365,Y
+SKU0032,Cran Citrus Blend 96oz Case,Ocean Spray,96oz,CASE,Blend,Cran Citrus,Case,270,N
+SKU0033,Cran Tropical Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cran Tropical,Bottle,300,Y
+SKU0034,Cran Energy Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Cran Energy,PET,300,Y
+SKU0035,Cranberry Mango Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Mango,PET,365,Y
+SKU0036,Cranberry Apple Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cranberry Apple,PET,270,Y
+SKU0037,Cran Tropical Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,Cran Tropical,Case,270,Y
+SKU0038,Cranberry Cherry Diet Juice 96oz Case,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Cherry,Case,300,Y
+SKU0039,Cranberry Mango Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Mango,PET,365,N
+SKU0040,Cran Citrus Blend 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Blend,Cran Citrus,Bottle,270,Y
+SKU0041,Cranberry Mango Blend 15.2oz PET,Ocean Spray,15.2oz,CASE,Blend,Cranberry Mango,PET,270,Y
+SKU0042,White Cranberry Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,White Cranberry,Case,270,Y
+SKU0043,Cranberry Apple Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Cranberry Apple,PET,365,Y
+SKU0044,Cran Tropical Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,Cran Tropical,Case,270,Y
+SKU0045,Cranberry Pineapple Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cranberry Pineapple,Bottle,365,Y
+SKU0046,Cranberry Grape Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cranberry Grape,Bottle,365,Y
+SKU0047,Cran Energy Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Energy,Case,300,Y
+SKU0048,Cranberry Mango Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cranberry Mango,PET,365,N
+SKU0049,Cranberry Cherry Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cranberry Cherry,Bottle,270,Y
+SKU0050,Cran Energy Blend 96oz Case,Ocean Spray,96oz,CASE,Blend,Cran Energy,Case,270,Y
+SKU0051,Cranberry Mango Blend 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Blend,Cranberry Mango,Bottle,270,Y
+SKU0052,Cranberry Cherry Blend 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Blend,Cranberry Cherry,Bottle,270,N
+SKU0053,Cran Citrus Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,Cran Citrus,Case,270,N
+SKU0054,Cranberry Apple Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Apple,PET,300,Y
+SKU0055,Cranberry Lemonade Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cranberry Lemonade,PET,365,Y
+SKU0056,Cranberry Peach Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Peach,PET,365,Y
+SKU0057,White Cranberry Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Juice,White Cranberry,Case,365,Y
+SKU0058,Cran Citrus Cocktail 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Cocktail,Cran Citrus,Bottle,365,N
+SKU0059,Ruby Cranberry Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Ruby Cranberry,PET,300,N
+SKU0060,Cranberry Cherry Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,Cranberry Cherry,Case,270,Y
+SKU0061,Cran Tropical Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Tropical,PET,300,Y
+SKU0062,Cranberry Raspberry Blend 96oz Case,Ocean Spray,96oz,CASE,Blend,Cranberry Raspberry,Case,270,Y
+SKU0063,White Cranberry Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,White Cranberry,Bottle,300,Y
+SKU0064,Cranberry Lemonade Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Lemonade,Bottle,300,Y
+SKU0065,White Cranberry Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,White Cranberry,Bottle,365,Y
+SKU0066,Cranberry Cherry Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cranberry Cherry,Bottle,365,Y
+SKU0067,White Cranberry Cocktail 96oz Case,Ocean Spray,96oz,CASE,Cocktail,White Cranberry,Case,365,Y
+SKU0068,White Cranberry Cocktail 96oz PET,Ocean Spray,96oz,CASE,Cocktail,White Cranberry,PET,365,Y
+SKU0069,Cranberry Grape Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Juice,Cranberry Grape,Case,365,Y
+SKU0070,Cranberry Mango Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Cranberry Mango,PET,365,Y
+SKU0071,Cranberry Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cranberry,PET,365,Y
+SKU0072,White Cranberry Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,White Cranberry,Bottle,300,N
+SKU0073,Cranberry Mango Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,Y
+SKU0074,Cran Citrus Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cran Citrus,Bottle,300,Y
+SKU0075,Cranberry Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cranberry,Case,365,N
+SKU0076,Cranberry Peach Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Cranberry Peach,Bottle,365,Y
+SKU0077,Cranberry Raspberry Cocktail 64oz Bottle,Ocean Spray,64oz,CASE,Cocktail,Cranberry Raspberry,Bottle,365,Y
+SKU0078,Cranberry Mango Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,Y
+SKU0079,Diet Cranberry Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Diet Cranberry,PET,365,N
+SKU0080,Cranberry Apple Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cranberry Apple,Bottle,365,Y
+SKU0081,Cranberry Lemonade Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Juice,Cranberry Lemonade,Case,365,N
+SKU0082,Cranberry Blend 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Blend,Cranberry,Bottle,270,N
+SKU0083,Cranberry Diet Juice 64oz Case,Ocean Spray,64oz,CASE,Diet Juice,Cranberry,Case,300,Y
+SKU0084,Cranberry Lemonade Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Cranberry Lemonade,Bottle,365,Y
+SKU0085,Cranberry Peach Juice 64oz Case,Ocean Spray,64oz,CASE,Juice,Cranberry Peach,Case,365,Y
+SKU0086,Cranberry Lemonade Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cranberry Lemonade,Bottle,365,Y
+SKU0087,Cranberry Peach Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cranberry Peach,PET,270,Y
+SKU0088,White Cranberry Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,White Cranberry,PET,270,Y
+SKU0089,Cranberry Raspberry Blend 15.2oz PET,Ocean Spray,15.2oz,CASE,Blend,Cranberry Raspberry,PET,270,Y
+SKU0090,Cranberry Lemonade Cocktail 15.2oz Case,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Lemonade,Case,365,Y
+SKU0091,Cranberry Cherry Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Cherry,PET,300,Y
+SKU0092,Cranberry Peach Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cranberry Peach,Bottle,365,Y
+SKU0093,Cranberry Raspberry Diet Juice 64oz Case,Ocean Spray,64oz,CASE,Diet Juice,Cranberry Raspberry,Case,300,Y
+SKU0094,Ruby Cranberry Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Ruby Cranberry,Case,365,Y
+SKU0095,Cranberry Peach Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cranberry Peach,Bottle,365,Y
+SKU0096,Cran Tropical Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Juice,Cran Tropical,Case,365,Y
+SKU0097,Cranberry Lemonade Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cranberry Lemonade,Bottle,270,Y
+SKU0098,Cranberry Cherry Blend 15.2oz PET,Ocean Spray,15.2oz,CASE,Blend,Cranberry Cherry,PET,270,Y
+SKU0099,Ruby Cranberry Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Ruby Cranberry,PET,365,Y
+SKU0100,Cranberry Pineapple Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Cranberry Pineapple,Bottle,365,Y
+SKU0101,Cranberry Cherry Cocktail 15.2oz Case,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Cherry,Case,365,Y
+SKU0102,Cranberry Grape Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cranberry Grape,Bottle,365,Y
+SKU0103,Cran Citrus Juice 96oz PET,Ocean Spray,96oz,CASE,Juice,Cran Citrus,PET,365,N
+SKU0104,Cranberry Mango Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,Y
+SKU0105,Cranberry Peach Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cranberry Peach,Bottle,270,Y
+SKU0106,Ruby Cranberry Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,Ruby Cranberry,Bottle,300,Y
+SKU0107,Cranberry Lemonade Cocktail 96oz Case,Ocean Spray,96oz,CASE,Cocktail,Cranberry Lemonade,Case,365,Y
+SKU0108,Cran Energy Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Energy,Bottle,300,Y
+SKU0109,Cran Tropical Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Tropical,PET,300,Y
+SKU0110,Diet Cranberry Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Diet Cranberry,Bottle,300,Y
+SKU0111,Cran Citrus Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,Cran Citrus,PET,365,Y
+SKU0112,Cranberry Pineapple Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Pineapple,PET,365,Y
+SKU0113,Ruby Cranberry Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Ruby Cranberry,Bottle,365,Y
+SKU0114,Cran Citrus Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cran Citrus,Bottle,270,Y
+SKU0115,Ruby Cranberry Cocktail 64oz Case,Ocean Spray,64oz,CASE,Cocktail,Ruby Cranberry,Case,365,Y
+SKU0116,Cranberry Peach Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Peach,PET,365,Y
+SKU0117,Cranberry Blend 96oz Bottle,Ocean Spray,96oz,CASE,Blend,Cranberry,Bottle,270,N
+SKU0118,Cran Tropical Blend 64oz PET,Ocean Spray,64oz,CASE,Blend,Cran Tropical,PET,270,Y
+SKU0119,Cranberry Mango Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cranberry Mango,Case,365,Y
+SKU0120,Cran Tropical Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,Cran Tropical,PET,365,Y
+SKU0121,Cranberry Pineapple Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Pineapple,PET,300,Y
+SKU0122,Cranberry Lemonade Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cranberry Lemonade,PET,270,Y
+SKU0123,Cranberry Cherry Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cranberry Cherry,PET,270,Y
+SKU0124,Cran Tropical Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Cran Tropical,PET,365,N
+SKU0125,Cranberry Mango Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Mango,Case,300,Y
+SKU0126,Cranberry Lemonade Diet Juice 96oz Case,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Lemonade,Case,300,Y
+SKU0127,Diet Cranberry Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,Diet Cranberry,PET,365,Y
+SKU0128,Cranberry Raspberry Blend 64oz PET,Ocean Spray,64oz,CASE,Blend,Cranberry Raspberry,PET,270,Y
+SKU0129,Cranberry Cherry Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Cherry,PET,300,Y
+SKU0130,Diet Cranberry Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Diet Cranberry,Case,365,N
+SKU0131,Cran Citrus Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cran Citrus,Bottle,365,Y
+SKU0132,Cranberry Apple Diet Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Apple,Bottle,300,Y
+SKU0133,Cranberry Lemonade Cocktail 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Lemonade,Bottle,365,Y
+SKU0134,Cran Tropical Diet Juice 64oz Case,Ocean Spray,64oz,CASE,Diet Juice,Cran Tropical,Case,300,Y
+SKU0135,White Cranberry Cocktail 64oz Bottle,Ocean Spray,64oz,CASE,Cocktail,White Cranberry,Bottle,365,Y
+SKU0136,White Cranberry Cocktail 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Cocktail,White Cranberry,Bottle,365,N
+SKU0137,Cranberry Cherry Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cranberry Cherry,Bottle,365,Y
+SKU0138,Cran Energy Diet Juice 64oz PET,Ocean Spray,64oz,CASE,Diet Juice,Cran Energy,PET,300,N
+SKU0139,Cran Energy Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cran Energy,PET,270,N
+SKU0140,Cran Citrus Cocktail 96oz Case,Ocean Spray,96oz,CASE,Cocktail,Cran Citrus,Case,365,Y
+SKU0141,Cranberry Raspberry Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Raspberry,PET,365,Y
+SKU0142,Cran Energy Blend 96oz Case,Ocean Spray,96oz,CASE,Blend,Cran Energy,Case,270,Y
+SKU0143,Diet Cranberry Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Diet Cranberry,PET,300,Y
+SKU0144,White Cranberry Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,White Cranberry,PET,270,Y
+SKU0145,Cranberry Apple Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cranberry Apple,Bottle,365,Y
+SKU0146,Cran Tropical Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cran Tropical,Bottle,300,Y
+SKU0147,Cranberry Pineapple Cocktail 64oz Case,Ocean Spray,64oz,CASE,Cocktail,Cranberry Pineapple,Case,365,Y
+SKU0148,White Cranberry Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,White Cranberry,PET,365,Y
+SKU0149,Cran Citrus Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cran Citrus,Case,365,Y
+SKU0150,Cranberry Pineapple Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,Cranberry Pineapple,PET,365,Y
+SKU0151,Cranberry Raspberry Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cranberry Raspberry,Bottle,300,Y
+SKU0152,Cranberry Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Cranberry,PET,365,Y
+SKU0153,Cran Tropical Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cran Tropical,Bottle,365,Y
+SKU0154,Cranberry Peach Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Peach,PET,365,N
+SKU0155,Cranberry Grape Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cranberry Grape,Case,365,Y
+SKU0156,Cranberry Apple Cocktail 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Apple,Bottle,365,Y
+SKU0157,White Cranberry Blend 64oz PET,Ocean Spray,64oz,CASE,Blend,White Cranberry,PET,270,Y
+SKU0158,Diet Cranberry Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Diet Cranberry,PET,365,Y
+SKU0159,Cranberry Cocktail 15.2oz Case,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry,Case,365,N
+SKU0160,White Cranberry Blend 15.2oz Case,Ocean Spray,15.2oz,CASE,Blend,White Cranberry,Case,270,Y
+SKU0161,Cran Energy Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cran Energy,Bottle,365,Y
+SKU0162,Cranberry Lemonade Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Cranberry Lemonade,Bottle,365,Y
+SKU0163,Ruby Cranberry Cocktail 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Cocktail,Ruby Cranberry,Bottle,365,N
+SKU0164,Cran Tropical Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cran Tropical,PET,365,Y
+SKU0165,Cran Energy Juice 15.2oz Bottle,Ocean Spray,15.2oz,CASE,Juice,Cran Energy,Bottle,365,Y
+SKU0166,Cranberry Peach Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Peach,PET,365,N
+SKU0167,Cranberry Mango Cocktail 96oz Case,Ocean Spray,96oz,CASE,Cocktail,Cranberry Mango,Case,365,Y
+SKU0168,Cranberry Grape Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Grape,Case,300,Y
+SKU0169,Cran Energy Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cran Energy,Case,365,Y
+SKU0170,Ruby Cranberry Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,Ruby Cranberry,PET,365,Y
+SKU0171,Cranberry Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cranberry,PET,270,Y
+SKU0172,Cranberry Pineapple Cocktail 15.2oz Case,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Pineapple,Case,365,Y
+SKU0173,Cranberry Mango Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,N
+SKU0174,Cranberry Lemonade Blend 96oz Case,Ocean Spray,96oz,CASE,Blend,Cranberry Lemonade,Case,270,Y
+SKU0175,Cran Citrus Cocktail 64oz Case,Ocean Spray,64oz,CASE,Cocktail,Cran Citrus,Case,365,N
+SKU0176,Cran Citrus Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cran Citrus,Bottle,270,Y
+SKU0177,White Cranberry Cocktail 64oz PET,Ocean Spray,64oz,CASE,Cocktail,White Cranberry,PET,365,N
+SKU0178,Cranberry Pineapple Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cranberry Pineapple,Bottle,365,Y
+SKU0179,Cranberry Raspberry Diet Juice 64oz Bottle,Ocean Spray,64oz,CASE,Diet Juice,Cranberry Raspberry,Bottle,300,Y
+SKU0180,Diet Cranberry Blend 64oz Case,Ocean Spray,64oz,CASE,Blend,Diet Cranberry,Case,270,Y
+SKU0181,Cranberry Cherry Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cranberry Cherry,Bottle,365,Y
+SKU0182,Cranberry Raspberry Cocktail 15.2oz Case,Ocean Spray,15.2oz,CASE,Cocktail,Cranberry Raspberry,Case,365,Y
+SKU0183,Ruby Cranberry Cocktail 96oz Case,Ocean Spray,96oz,CASE,Cocktail,Ruby Cranberry,Case,365,Y
+SKU0184,Cranberry Grape Juice 64oz PET,Ocean Spray,64oz,CASE,Juice,Cranberry Grape,PET,365,Y
+SKU0185,Diet Cranberry Diet Juice 64oz Case,Ocean Spray,64oz,CASE,Diet Juice,Diet Cranberry,Case,300,N
+SKU0186,Cranberry Cherry Cocktail 64oz Case,Ocean Spray,64oz,CASE,Cocktail,Cranberry Cherry,Case,365,Y
+SKU0187,Cranberry Pineapple Blend 64oz Case,Ocean Spray,64oz,CASE,Blend,Cranberry Pineapple,Case,270,Y
+SKU0188,Diet Cranberry Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Diet Cranberry,Bottle,270,Y
+SKU0189,Cranberry Pineapple Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Pineapple,Bottle,300,N
+SKU0190,White Cranberry Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,White Cranberry,Bottle,300,Y
+SKU0191,Cranberry Grape Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cranberry Grape,Bottle,270,Y
+SKU0192,Cranberry Apple Blend 15.2oz PET,Ocean Spray,15.2oz,CASE,Blend,Cranberry Apple,PET,270,Y
+SKU0193,Diet Cranberry Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Diet Cranberry,Bottle,300,Y
+SKU0194,Cran Tropical Blend 96oz Bottle,Ocean Spray,96oz,CASE,Blend,Cran Tropical,Bottle,270,Y
+SKU0195,Cranberry Lemonade Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Lemonade,PET,365,Y
+SKU0196,Cranberry Pineapple Cocktail 64oz Bottle,Ocean Spray,64oz,CASE,Cocktail,Cranberry Pineapple,Bottle,365,Y
+SKU0197,Cranberry Grape Cocktail 64oz Bottle,Ocean Spray,64oz,CASE,Cocktail,Cranberry Grape,Bottle,365,Y
+SKU0198,Cranberry Lemonade Juice 64oz Case,Ocean Spray,64oz,CASE,Juice,Cranberry Lemonade,Case,365,Y
+SKU0199,Cran Energy Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cran Energy,Case,300,Y
+SKU0200,Cranberry Grape Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Grape,Case,300,Y
+SKU0201,Cran Energy Diet Juice 96oz Case,Ocean Spray,96oz,CASE,Diet Juice,Cran Energy,Case,300,Y
+SKU0202,Diet Cranberry Cocktail 64oz Case,Ocean Spray,64oz,CASE,Cocktail,Diet Cranberry,Case,365,Y
+SKU0203,Cranberry Lemonade Juice 64oz Case,Ocean Spray,64oz,CASE,Juice,Cranberry Lemonade,Case,365,Y
+SKU0204,Diet Cranberry Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Diet Cranberry,Case,300,Y
+SKU0205,Cranberry Apple Diet Juice 15.2oz Case,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Apple,Case,300,Y
+SKU0206,Cranberry Mango Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Mango,PET,365,N
+SKU0207,Cranberry Blend 64oz Bottle,Ocean Spray,64oz,CASE,Blend,Cranberry,Bottle,270,Y
+SKU0208,Cran Tropical Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cran Tropical,PET,270,Y
+SKU0209,Cranberry Peach Diet Juice 96oz PET,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Peach,PET,300,N
+SKU0210,Cranberry Mango Diet Juice 96oz Bottle,Ocean Spray,96oz,CASE,Diet Juice,Cranberry Mango,Bottle,300,N
+SKU0211,Cranberry Peach Diet Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Diet Juice,Cranberry Peach,PET,300,Y
+SKU0212,Cranberry Apple Juice 15.2oz PET,Ocean Spray,15.2oz,CASE,Juice,Cranberry Apple,PET,365,N
+SKU0213,Cranberry Raspberry Blend 96oz Bottle,Ocean Spray,96oz,CASE,Blend,Cranberry Raspberry,Bottle,270,Y
+SKU0214,Cran Tropical Blend 96oz PET,Ocean Spray,96oz,CASE,Blend,Cran Tropical,PET,270,Y
+SKU0215,Cranberry Raspberry Cocktail 96oz Bottle,Ocean Spray,96oz,CASE,Cocktail,Cranberry Raspberry,Bottle,365,N
+SKU0216,Cran Tropical Cocktail 15.2oz PET,Ocean Spray,15.2oz,CASE,Cocktail,Cran Tropical,PET,365,N
+SKU0217,Cranberry Grape Juice 64oz Bottle,Ocean Spray,64oz,CASE,Juice,Cranberry Grape,Bottle,365,N
+SKU0218,Cran Energy Juice 96oz Case,Ocean Spray,96oz,CASE,Juice,Cran Energy,Case,365,Y
+SKU0219,Cran Energy Juice 96oz Bottle,Ocean Spray,96oz,CASE,Juice,Cran Energy,Bottle,365,Y
+SKU0220,Cranberry Peach Cocktail 96oz PET,Ocean Spray,96oz,CASE,Cocktail,Cranberry Peach,PET,365,Y
